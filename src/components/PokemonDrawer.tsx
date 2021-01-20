@@ -57,8 +57,10 @@ const PokemonDrawer: React.FC<Props> = ({ pokemon, onClose }) => {
           </Stack>
           {/* bottom drawer content */}
           <Stack
-            backgroundColor="white"
-            borderRadius={24}
+            backgroundColor="whitesmoke"
+            height='100%'
+            borderTopLeftRadius= {24}
+            borderTopRightRadius={24}
             marginTop={-12}
             paddingTop={20}
             paddingX={6}

@@ -21,8 +21,7 @@ const App: React.FC = () => {
     <Stack 
     padding={3} 
     spacing={6}
-    color='yellow.100'
-    backgroundColor='red.600'
+    backgroundColor='whitesmoke'
     >1
       <Heading 
       fontSize="4xl" 
